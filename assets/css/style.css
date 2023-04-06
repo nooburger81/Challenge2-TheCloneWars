@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-image: url("/assets/images/bluewood.png");
+    height: 150px;
+}
+
+nav{
+    height: 90px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+nav a{
+    color: aqua;
+    font-size: 18px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-bottom: 4px solid aqua;
+}
+
+label{
+    position:absolute;
+    top: 1%;
+    color: black;
+    padding: 10px 10px 5px 50px;
+    background-color: aqua;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2{
+    position: relative;
+    left: 70%;
+    top: 55%;
+    width: 310px;
+    background-color: aqua;
+    padding: 2px;
+    font-size: 30px;
+}
+
+h3{
+height: 200px;
+width: 150;
+margin: 10px 75px;
+padding: 0px 30px 0px 40px;
+border-right: 4px solid black;
+}
+
+h4{
+    text-align: right;
+    height: 1000px;
+    width: 150px;
+    margin: auto;
+    border-right: 4px solid black;
+    padding: 0px 40px 0px 0px;
+    font-size: 48px;
+}
+
+h5{
+    position: absolute;
+    text-align: right;
+    width: 48px;
+    left: 70px;
+    padding: 0px 220px 0px 15px;
+    font-size: 50px;
+    border-right: 4px solid black;
+}
+
+
+p{
+    height: 200px;
+    justify-content: space-between;
+    font-size: 24px;
+}
+main2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+section1{
+    position: relative;
+    right: 80px;
+}
+
+section2{
+    position: relative;
+    right: 80px;
+    margin-top: 20px;
+}
+
+aside1{
+    position: relative;
+    left: 40px;
+}
+
+aside2{
+    position: relative;
+    left: 40px;
+}
+
+figure1{
+    background-image: url("/assets/images/beachscene.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid aqua;
+}
+
+figure2{
+    position: absolute;
+    top: 620px;
+    background-image: url("/assets/images/ledlights.png");
+    background-size: cover;
+    border: 3px solid aqua;
+}
+
+figure3{
+    position: absolute;
+    right: 2px;
+    top: 620px;
+    background-image: url("/assets/images/calculator.png");
+    background-size: cover;
+    border: 3px solid aqua;
+}
+
+figure4{
+    position: absolute;
+    top: 830px;
+    background-image: url("/assets/images/pastelpuzzle.png");
+    background-size: cover;
+    border: 3px solid aqua;
+}
+
+figure5{
+    position: absolute;
+    top: 830px;
+    right: 2px;
+    background-image: url("/assets/images/runbuddy.png");
+    background-size: cover;
+    border: 3px solid aqua;
+}
+
+nav2 {
+    height: 90px;
+}
+
+
+nav2 li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+nav2 a{
+    color: black;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-bottom: 4px solid black;
+    text-decoration: none;
+}
+
+footer{
+    position: relative;
+    top: 50px;
+    height: 200px;
+}
+
+#nav-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    justify-content: right;
+    align-items: center;
+}
+
+#main-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 250px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+#main2-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 250px;
+    margin-top: 40px;
+    justify-content: space-between
+}
+
+#aside1-div{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 250px;
+    justify-content: right;
+    text-align: right;
+    font-size: 40px;
+}
+
+#aside2-div{
+    display: flex;
+    flex-direction: row;
+    width: 22%;
+}
+
+#section1-div{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 75%;
+    height: 250px;
+    justify-content: left;
+    padding: 10px 50px 0px 0px;
+}
+
+#section2-div{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 75%;
+    height: 600px;
+}
+
+#figure1-div{
+    width: 100%;
+}
+
+#figure2-div{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 200px;
+    justify-content: space-between;
+}
+
+#figure3-div{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 200px;
+    justify-content: space-between;
+}
+
+#figure4-div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 200px;
+    justify-content: space-between;
+}
+
+#figure5-div{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 200px;
+        justify-content: space-between;
+}
+
+#footer-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
